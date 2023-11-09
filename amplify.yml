@@ -21,7 +21,6 @@ test:
   artifacts:
     baseDirectory: ./
 
-
   cache:
     paths:
       - node_modules/**/*
