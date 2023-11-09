@@ -12,6 +12,13 @@ frontend:
     baseDirectory: dist
     files:
       - '**/*'
+
+test:
+  phases:
+    test:
+      commands:
+        - npm run test:e2e
+
   cache:
     paths:
       - node_modules/**/*
