@@ -18,6 +18,9 @@ test:
     test:
       commands:
         - npm run test:e2e
+  artifacts:
+    baseDirectory: ./
+
 
   cache:
     paths:
